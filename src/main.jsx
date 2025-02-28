@@ -11,7 +11,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/posts_react'>
       <Provider store={store}>
         <App />
       </Provider>

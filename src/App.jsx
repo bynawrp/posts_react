@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Header />
-      <Routes>
+      <Routes >
         <Route path={"/"} element={<HomePage />} />
         <Route path={"/detail/:id"} element={<DetailPage />} />
         <Route path={"/newPost"} element={<AddPage />} />
